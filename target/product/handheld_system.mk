@@ -68,7 +68,6 @@ PRODUCT_PACKAGES += \
     Telecom \
     TelephonyProvider \
     TeleService \
-    Traceur \
     UserDictionaryProvider \
     VpnDialogs \
     vr \
@@ -87,3 +86,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.carrier=unknown \
     ro.config.notification_sound=Popcorn.ogg \
     ro.config.alarm_alert=Bright_morning.ogg
+
+# Traceur for debug only
+PRODUCT_PACKAGES_ENG += \
+    Traceur
